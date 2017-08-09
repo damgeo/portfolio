@@ -1,0 +1,133 @@
+<config>
+	<cssSkin>skins/express_show_silver/spritesheet.min.css</cssSkin>
+	<controlBarAutoHide>true</controlBarAutoHide>
+	<tocTitleColor>0xFFFFFF</tocTitleColor>
+	<tocItemTextColor>0xFFFFFF</tocItemTextColor>
+	<tocItemUpColor>0x111111</tocItemUpColor>
+	<tocItemOverColor>0xB1B1B1</tocItemOverColor>
+	<tocItemDownColor>0xC1C1C1</tocItemDownColor>
+	<tocItemSelectedUpColor>0xA1A1A1</tocItemSelectedUpColor>
+	<tocItemSelectedOverColor>0xA1A1A1</tocItemSelectedOverColor>
+	<tocItemSelectedDownColor>0xA1A1A1</tocItemSelectedDownColor>
+	<chrome>
+		<widgets>
+			<widget id="controlBar"
+					  type="ControlBar"
+					  height="18"
+					  horizontalAlign="center"
+					  verticalAlign="top"
+					  layoutMode="horizontal">
+
+				<widget id="leftMargin"
+						  type="Widget"
+						  width="8"/>
+				<widget id="rewindbutton"
+						  top="2"
+						  type="RewindButton"/>
+				<widget horizontalAlign="left"
+						  verticalAlign="center"
+						  top="2"
+						  left="0">
+					<widget id="playButton"
+							  type="playButton"/>
+
+					<widget id="pauseButton"
+							  type="pauseButton"/>
+
+				</widget>
+				<widget id="spacerBeforeScrubBar"
+						  type="Widget"
+						  width="5"/>
+				<widget id="previousButton"
+						  type="PlaylistPreviousButton"
+						  top="2"/>
+
+				<widget id="nextButton"
+						  type="PlaylistNextButton"
+						  top="2"/>
+
+				<widget id="spacerBeforeScrubBar"
+						  type="Widget"
+						  width="8"/>
+
+				<widget id="scrubBar"
+						  type="scrubBar"
+						  top="4"
+						  markerWidth="4"
+						  markerHeight="6"
+						  markerColor="0x538fE1"
+						  markerColorAlpha="1"
+						  markerCorner="4"
+						  includeTimeHint="false"
+						  thumbOffsetY="-1"
+						  horizontalAlign="center"
+						  verticalAlign="top"
+						  percentWidth="100"/>
+
+				<widget id="spacerAfterScrubBar"
+						  type="Widget"
+						  width="5"/>
+				<widget id="seperator"
+						  top="1"
+						  face="seperator"
+						  type="Widget"
+						  width="4"/>
+				<widget id="spacer"
+						  type="Widget"
+						  width="5"/>
+				<widget layoutMode="horizontal"
+						  horizontalAlign="right"
+						  verticalAlign="center"
+						  right="6">
+
+					<widget id="muteButton"
+							  type="MuteButton"
+							  sliderStart="10"
+							  sliderEnd="84"
+							  top="5"/>
+
+					<widget id="spacer"
+							  type="Widget"
+							  width="8"/>
+
+					<widget id="captionbutton"
+							  type="CaptionButton"
+							  top="5"/>
+
+					<widget id="spacer"
+							  type="Widget"
+							  width="8"/>
+
+					<widget id="tocbutton"
+							  type="TOCButton"
+							  top="5"/>
+
+					<widget id="spacer"
+							  type="Widget"
+							  width="8"/>
+
+					<widget id="fullscreenMaxButton"
+							  top="5"
+							  type="FullScreenEnterButton"/>
+
+					<widget id="fullscreenMinButton"
+							  top="5"
+							  type="FullScreenLeaveButton"/>
+				</widget>
+				<widget id="spacer"
+						  type="Widget"
+						  width="5"/>
+				<widget id="timeViewWidget"
+						  type="TimeViewWidget"
+						  verticalAlign="middle"
+						  horizontalAlign="right"
+						  textColor="0x333333"
+						  fontSize="11"
+						  top="0"/>
+				<widget id="rightMargin"
+						  type="Widget"
+						  width="5"/>
+			</widget>
+		</widgets>
+	</chrome>
+</config>

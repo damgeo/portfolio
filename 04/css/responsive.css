@@ -1,0 +1,850 @@
+/**************************************************************
+******** Responsive CSS for Queen's University Belfast ********
+***************************************************************/
+
+/************************
+******** Desktop ********
+*************************/
+
+@media (max-width: 1920px) {
+	
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 20%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 40%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 20%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 28%; top: 20%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 45%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 30%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 15%; top: 10%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 15%; top: 10%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 20%; bottom: 30%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 25%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 10%; top: 40%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 30%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 25%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 32%; bottom: 25%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 8%; top: 15%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 50%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 40%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 15%; top: 10%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 15%; top: 10%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 15%; bottom: 20%; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 25%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 45%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 25%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 33%; top: 10%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 10%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 10%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 15%; top: 10%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 15%; top: 10%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 15%; bottom: 20%; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 10%; top: 30%; }
+}
+
+
+/* Might need to be min-width */
+@media (max-width: 1440px) {
+	
+	.nav-char1-complete { height: 350px; }
+	
+	.meet-characters-banner { min-width: 500px; }
+	.meet-characters-banner:before { width: 55%; width: 85px; }
+	
+	.scenario1-characters:after, .scenario2-characters:after, .scenario3-characters:after {
+		background-size: contain;
+	}
+
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 30%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 10%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 28%; top: 25%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 35%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 20%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 15%; top: 20%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 20%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 20%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 30%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 5%; top: 45%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 30%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 30%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 32%; bottom: 25%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 8%; top: 22%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 42%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 32%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 10%; top: 20%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 20%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 38%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 32%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 15%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 33%; top: 20%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 20%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 20%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 10%; top: 15%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 15%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 8%; top: 30%; }
+}
+
+
+@media (max-width: 1366px) {
+	
+	.tooltip-inner {
+		max-width: 400px;
+		min-width: 165px;
+		padding: 5px;
+	}
+	
+	.menu-wrapper { left: 15px; top: 25px; }
+	
+    .tagline-wrapper { top: 15px; right: 0; }
+    .tagline-1 h1, .tagline-2 h1 { font-size: 30px; }
+    
+    .welcome-container {
+        width: 800px;
+        top: 50%;
+        padding: 20px 50px;
+    }
+    
+    .logo { width: 300px; }
+    
+    .video-wrapper { width: 55%; }
+	
+	.audio-scenario { width: 60%; }
+
+    .large-modal .modal-body {
+        font-size: 18px;
+    }
+    
+    .close-modal { font-size: 40px; }
+    
+	.floating-content { font-size: 16px; }
+	
+	.scenario-wrapper .floating-content { width: 65%; padding: 10px 30px; }
+	
+	.scenario-wrapper .floating-content p { font-size: 16px; }
+	
+    .user-command-box {  min-height: 110px; line-height: 110px; width: 400px; font-size: 14px; margin: 10px; }
+    
+    .learnmore-box { min-height: 110px; line-height: 110px; width: 400px; font-size: 14px; margin: 10px; }
+	
+	.instruction-box {  min-height: 60px; line-height: 60px; width: 500px; font-size: 16px; margin: 10px; }
+    
+    .tips-box, .download-box { min-height: 60px; line-height: 60px; width: 500px; font-size: 14px; margin: 10px; }
+	
+    .summary-banner {
+        width: 40%;
+        min-width: 600px;
+    }
+    
+    .summary-banner:after {
+        width: 320px;
+        height: 730px;
+        background-size: 100%;
+    }
+    
+    .summary-floating-paragraph { width: 55%; }
+    .summary-bg1, .summary-bg2 { width: 30%; }
+    
+    .nav-char2 { width: 50%; }
+    .nav-char3 { width: 40%; }
+    .nav-char4 { width: 60%; }
+    .nav-char5 { width: 85%; }
+	
+	.meet-characters-banner {
+        min-width: 500px;
+	}
+	
+	.meet-characters-banner:before {
+		width: 55%;
+		width: 85px;
+	}
+	
+	.scenario1-characters:after, .scenario2-characters:after, .scenario3-characters:after {
+		background-size: contain;
+	}
+	
+	.content-wrapper-right {
+        min-width: 600px;
+	}
+	
+	/*.content-wrapper-right:after {
+		background-size: 60%;
+	}*/
+	
+    .floating-paragraph { width: 55%; }
+	.evening-with-friends-bg1, .evening-with-friends-bg2, .evening-with-friends-bg3, .evening-with-friends-bg4 { width: 30%; }
+    
+	.speech-bubble p, .speech-bubble-large p, .speech-bubble-larger p, .speech-bubble-small p { font-size: 16px; }
+	.thought-bubble p { font-size: 16px; }
+	.thought-bubble-small p { font-size: 16px; }
+	
+	.speech-bubble-larger {
+		position: absolute;
+		width: 440px;
+		height: 210px;
+	}
+	
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 30%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 10%; }
+
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 28%; top: 30%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 15%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 12%; top: 20%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 20%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 20%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 30%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 8%; top: 45%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 25%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 35%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 32%; bottom: 25%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 8%; top: 20%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 45%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 35%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 10%; top: 20%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 20%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 38%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 32%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 15%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 33%; top: 25%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 25%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 25%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 10%; top: 20%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 20%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 5%; top: 30%; }
+}
+
+
+@media (max-width: 1200px) { 
+    
+    .video-wrapper { width: 60%; }
+	.audio-scenario { width: 60%; }
+    .user-command-box {  width: 380px; background-size: 40px; padding: 5px 6px 5px 55px; margin: 5px; }
+    .learnmore-box { width: 380px; background-size: 40px; padding: 5px 6px 5px 55px; margin: 5px; }
+	.instruction-box {  width: 380px; background-size: 40px; padding: 5px 6px 5px 55px; margin: 5px; }
+    .tips-box, .download-box { width: 380px; background-size: 40px; padding: 5px 6px 5px 55px; margin: 5px; }
+	
+    .nav-command-box {
+        background-size: 40px;
+        padding: 5px 10px 5px 65px;
+        margin: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .tooltip { font-size: 18px; }
+	.top-banner .inner-content { padding: 0 15px; }
+}
+
+
+@media (max-width: 1100px) { 
+    
+	.content-wrapper-right .inner-content {
+		padding: 40px 80px 40px 0;
+	}
+}
+
+/***********************
+******** Tablet ********
+************************/
+
+@media (max-width: 1024px) { 
+	
+	.nav-char1-complete { height: 280px; }
+	
+    .logo {  width: 260px; }
+    
+    .floating-content {
+        min-width: 480px;
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+    
+    .tagline-1 { margin-right: 40px; }
+    
+    .welcome-container {
+        width: 750px;
+        padding: 20px;
+    }
+    
+    .welcome-container h1 { font-size: 50px; }
+    .welcome-container p { font-size: 18px; }
+    .instruction-text { font-size: 16px; }
+    .volume-adjust { top: 5px; }
+    .large-modal .inner-content { padding: 0; }
+    .large-modal .modal-content { padding: 40px; }
+    .large-modal .inner-content { padding-top: 20px; }
+    .summary-floating-paragraph { width: 65%; }
+    .summary-bg1, .summary-bg2 { width: 20%; background-position: left center; }
+
+    .nav-char2 { width: 60%; }
+    .nav-char3 { width: 45%; }
+    .nav-char4 { width: 70%; }
+    .nav-char5 { width: 100%; }
+
+	.content-inner { padding: 10px; }
+	
+	.meet-characters-banner .center-content {
+		top: 40%;
+		-webkit-transform: translateY(-40%);
+		-moz-transform: translateY(-40%);
+		-o-transform: translateY(-40%);
+		-ms-transform: translateY(-40%);
+		transform: translateY(-40%);
+		padding: 10px;
+	}
+	
+	
+	.question-wrapper {
+		width: 70%;
+		left: 50%;
+		-webkit-transform: translate(-70%, -60%);
+		-moz-transform: translate(-70%, -60%);
+		-o-transform: translate(-70%, -60%);
+		-ms-transform: translate(-70%, -60%);
+		transform: translate(-70%, -60%);
+	}
+
+	.char-pose { display: none; }
+	
+	.question-wrapper .top-banner .inner-content { text-align: center; }
+	
+    .floating-paragraph { width: 65%; }
+	
+	.evening-with-friends-bg1, .evening-with-friends-bg2, .evening-with-friends-bg3, .evening-with-friends-bg4 {
+		width: 20%;
+        background-position: left center;
+    }
+	
+	
+	/* Characters holding boards */
+	.scenario2-board1:after, .scenario2-board2:after {
+		background-size: 75%;
+		-webkit-transform: translateX(-85%);
+		-moz-transform: translateX(-85%);
+		-o-transform: translateX(-85%);
+		-ms-transform: translateX(-85%);
+		transform: translateX(-85%);
+	}
+	
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 32%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 12%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 26%; top: 32%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 15%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 12%; top: 25%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 25%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 20%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 35%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 8%; top: 48%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 22%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 40%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 30%; bottom: 20%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 10%; top: 30%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 35%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 25%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 8%; top: 25%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 25%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 5%; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 42%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 28%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 10%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 34%; top: 30%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 8%; top: 25%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 25%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 5%; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 10%; top: 40%; }
+	
+	#footer {
+		min-height: 60px;
+		padding: 10px 0 0 0;
+		font-size: 10px;
+	}
+	
+	.volume-adjust { height: 30px; }
+	
+	.video-wrapper {
+		width: 50%;
+	}
+	
+	.audio-scenario { width: 60%; }
+	
+	.video-js .vjs-big-play-button {
+		left: 30%;
+	}
+	
+	.audio-scenario .video-js .vjs-big-play-button { left: 35%; }
+	
+}
+
+@media screen and (max-width: 1020px) {
+	
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 35%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 25%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 5%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 26%; top: 32%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 15%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 12%; top: 25%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 30%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 15%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 42%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 8%; top: 52%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 20%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 5%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 45%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 30%; bottom: 15%; }
+
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 10%; top: 30%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 35%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 18%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 8%; top: 30%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 30%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 33%; }
+	.friends-slide-18-chars .box-left { right: 32%; top: 48%; }
+	.friends-slide-18-chars .box-right-angled-up { right: 32%; bottom: 22%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 5%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 34%; top: 30%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 8%; top: 30%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 30%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-right { left: 10%; top: 30%; }
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 10%; top: 50%; }
+	
+	
+	
+    /*#mobile-message {
+		display: block;
+		text-align: center;
+	}
+
+	#mobile-message img {
+		width: 60%;
+		min-width: 180px;
+	}
+
+	.center-content {
+		position: relative;
+		width: 80%;
+		height: auto;
+		top: 50%;
+		margin: 0 auto;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+    
+	#mobile-message p {
+		position: relative;
+		width: 80%;
+		font-size: 20px;
+		margin: 0 auto;
+	}*/
+}
+
+	
+@media screen and (max-width: 1020px) and (max-height: 760px), (max-height: 1020px) and (max-width: 760px) {
+    
+   /* #mobile-message {
+		display: block;
+		text-align: center;
+	}
+
+	#mobile-message img {
+		width: 60%;
+		min-width: 180px;
+	}
+
+	.center-content {
+		position: relative;
+		width: 80%;
+		height: auto;
+		top: 50%;
+		margin: 0 auto;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+    
+	#mobile-message p {
+		position: relative;
+		width: 80%;
+		font-size: 20px;
+		margin: 0 auto;
+	}*/
+}
+
+@media (max-height: 768px) { 
+    
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { top: 22%; }
+	.friends-slide-5-chars .thought-bubble-right { top: 22%; }
+	.friends-slide-5-chars .thought-bubble-right-up { bottom: 15%; }
+
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 40%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { top: 22%; }
+	.friends-slide-16-chars .thought-bubble-right { top: 22%; }
+	.friends-slide-16-chars .thought-bubble-right-up { bottom: 10%; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 15%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { top: 20%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { top: 20%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { top: 20%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { top: 22%; }
+	.friends-slide-20-chars .thought-bubble-right { top: 22%; }
+	.friends-slide-20-chars .thought-bubble-right-up { bottom: 10%; }
+
+}
+
+@media (max-height: 680px) { 
+    
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 35%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 28%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 10%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 26%; top: 32%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 15%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 12%; top: 30%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 30%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 15%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 38%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 8%; top: 50%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 22%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 10%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 45%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 30%; bottom: 15%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 10%; top: 30%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 35%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 25%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 8%; top: 30%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 30%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 42%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 28%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 10%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 34%; top: 30%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 8%; top: 30%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 30%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 10%; top: 45%; }
+	
+}
+
+@media (max-height: 620px) { 
+    
+	/******************************************************************
+	******** An Evening with New Friends screen speech bubbles ********
+	*******************************************************************/
+	
+	/* Slide 3 character image and speech bubbles */
+	.friends-slide-3-chars .box-right-angled-down-alt { left: 30%; top: 38%; }
+	.friends-slide-3-chars .box-right { left: 30%; bottom: 26%; }
+	.friends-slide-3-chars .box-left-angled-up-alt { left: 30%; bottom: 10%; }
+	
+	/* Slide 4 speech bubbles */
+	.friends-slide-4-chars .box-left-angled-down { right: 26%; top: 32%; }
+	.friends-slide-4-chars .box-right { left: 30%; bottom: 30%; }
+	.friends-slide-4-chars .box-left-angled-up-alt { left: 30%; bottom: 15%; }
+	
+	/* Slide 5 thought bubbles */
+	.friends-slide-5-chars .thought-bubble-left { left: 12%; top: 33%; }
+	.friends-slide-5-chars .thought-bubble-right { right: 8%; top: 33%; }
+	.friends-slide-5-chars .thought-bubble-right-up { right: 15%; bottom: 10%; }
+	
+	/* Slide 7 speech bubbles */
+	.friends-slide-7-chars .box-right { left: 35%; top: 45%; }
+	.friends-slide-7-1-chars .box-left-angled-up-alt { left: 8%; top: 55%; }
+	.friends-slide-7-chars .box-left-angled-down { right: 32%; bottom: 20%; }
+	.friends-slide-7-chars .box-right-angled-up { right: 10%; bottom: 5%; }
+	
+	/* Slide 8 speech bubble positioning */
+	.friends-slide-8-chars .box-left-angled-up-alt{ left: 15%; top: 50%; }
+	.friends-slide-8-chars .box-right-angled-up { right: 30%; bottom: 12%; }
+	
+	/* Slide 9 speech bubble positioning */
+	.friends-slide-9-chars .box-right-angled-down { left: 10%; top: 30%; }
+	.friends-slide-9-chars .box-right { left: 10%; bottom: 34%; }
+	.friends-slide-9-chars .box-left-angled-up-alt { left: 10%; bottom: 25%; }
+	
+	/* Slide 16 thought bubbles */
+	.friends-slide-16-chars .thought-bubble-left { left: 8%; top: 35%; }
+	.friends-slide-16-chars .thought-bubble-right { right: 10%; top: 32%; }
+	.friends-slide-16-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 18 character image and speech bubbles */
+	.friends-slide-18-chars .box-left-angled-down { right: 32%; top: 42%; }
+	.friends-slide-18-chars .box-left { right: 32%; bottom: 28%; }
+	.friends-slide-18-chars .box-left-angled-up-alt { left: 25%; bottom: 10%; }
+	
+	/* Slide 19 character image and thought bubbles */
+	.friends-slide-19-1-chars .box-left-angled-down-alt { right: 34%; top: 30%; }
+	.friends-slide-19-2-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	.friends-slide-19-3-chars .box-left-angled-down-alt { right: 33%; top: 30%; }
+	
+	/* Slide 20 thought bubbles */
+	.friends-slide-20-chars .thought-bubble-left { left: 8%; top: 35%; }
+	.friends-slide-20-chars .thought-bubble-right { right: 10%; top: 32%; }
+	.friends-slide-20-chars .thought-bubble-right-up { right: 10%; bottom: 0; }
+	
+	/* Slide 21 speech bubbles */
+	.friends-slide-21-chars .box-left-angled-up-alt { left: 10%; top: 50%; }
+	
+}
+
+
+@media screen and (max-width: 991px) { }
+@media screen and (max-width: 850px) { }
+@media screen and (max-width: 768px) {
+    
+    .welcome-container {
+        width: 100%;
+    }
+
+    #mobile-message {
+		display: block;
+		text-align: center;
+	}
+
+	#mobile-message img {
+		width: 60%;
+		min-width: 180px;
+	}
+
+	.center-content {
+		position: relative;
+		width: 80%;
+		height: auto;
+		top: 50%;
+		margin: 0 auto;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	#mobile-message p {
+		position: relative;
+		width: 80%;
+		font-size: 20px;
+		margin: 0 auto;
+	}
+    
+	.more-btn:hover:before, .prev-btn:hover:before, .next-btn:hover:before, .restart-btn:hover:before {
+		top: 0;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.more-btn:hover:after, .prev-btn:hover:after, .next-btn:hover:after, .restart-btn:hover:after {
+		top: -100%;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.prev-btn:hover, .next-btn:hover {
+		-webkit-transform: translate(-50%, 50%) scale(1);
+		-moz-transform: translate(-50%, 50%) scale(1);
+		-o-transform: translate(-50%, 50%) scale(1);
+		-ms-transform: translate(-50%, 50%) scale(1);
+		transform: translate(-50%, 50%) scale(1);
+	}
+}
+
+
+/***************************
+******** Smartphone ********
+***************************/
+@media screen and (max-width: 580px) { }
+@media screen and (max-width: 480px) { }
+@media screen and (max-width: 400px) { }
+@media screen and (max-width: 320px) { }

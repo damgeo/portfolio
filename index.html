@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login</title>
+<meta charset="UTF-8">
+
+<script type="text/javascript">
+
+function TheLogin() {
+
+var password = 'vi3w*';
+
+if (this.document.login.pass.value == password) {
+  top.location.href="01/story.html";
+}
+else {
+  window.alert("Incorrect password, please try again.");
+  }
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div style="text-align: center; margin: 0 auto; color: #000000; font: normal 13px arial, sans-serif;">
+
+<p>Password:</p>
+
+<form name="login" style="margin: 5px 0px 0px 0px;">
+
+<p><input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"></p>
+
+<p><input type="button" value="Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)"></p>
+
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+/*********************************************************
+******** CSS for multiple response question (MRQ) ********
+**********************************************************/
+
+.submit-ans {
+	position: absolute;
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	bottom: -120px;
+	left: 50%;
+	border-radius: 100%;
+	background: #c42032;
+	border: solid 5px #fff;
+	color: #fff;
+	overflow: hidden;
+	-webkit-transform-origin: 0 50%;
+	-moz-transform-origin: 0 50%;
+	-o-transform-origin: 0 50%;
+	-ms-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	-webkit-transform: scale(0) translateX(-50%);
+	-moz-transform: scale(0) translateX(-50%);
+	-o-transform: scale(0) translateX(-50%);
+	-ms-transform: scale(0) translateX(-50%);
+	transform: scale(0) translateX(-50%);
+}
+
+.submit-ans.active-state {
+	-webkit-transform: scale(1) translateX(-50%);
+	-moz-transform: scale(1) translateX(-50%);
+	-o-transform: scale(1) translateX(-50%);
+	-ms-transform: scale(1) translateX(-50%);
+	transform: scale(1) translateX(-50%);
+}
+
+.submit-ans:hover:before {
+	top: 100%;
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-o-transform: scale(.9);
+	-ms-transform: scale(.9);
+	transform: scale(.9);
+}
+
+.submit-ans:hover:after {
+	top: 0;
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-o-transform: scale(.9);
+	-ms-transform: scale(.9);
+	transform: scale(.9);
+}
+
+.submit-ans:hover {
+	-webkit-transform: scale(1.1) translateX(-50%);
+	-moz-transform: scale(1.1) translateX(-50%);
+	-o-transform: scale(1.1) translateX(-50%);
+	-ms-transform: scale(1.1) translateX(-50%);
+	transform: scale(1.1) translateX(-50%);
+}
+
+.submit-ans:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url(../images/command-icon.png) no-repeat center;
+	background-size: 70px;
+}
+
+.submit-ans:after {
+	content: 'Submit';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 120px;
+	top: -100%;
+	left: 0;
+	text-align: center;
+	color: #fff; 
+}
+
+.taskAnswers{
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	text-align: left;
+}
+
+.taskAnswers li{
+	list-style: none;
+}
+
+.taskAnswers li a{
+	background: url(../images/box.png) no-repeat 30px;
+	padding: 18px;
+	display: block;
+	border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.taskAnswers li a:hover{ 
+	background: rgba(196, 32, 50, .2) url(../images/box-hover.png) no-repeat 30px;
+	color: #333;
+}
+
+.selected-response {
+	background: url(../images/box-check.png) no-repeat 30px!important;
+}
+
+.selected-response:hover {
+	background: rgba(196, 32, 50, .2) url(../images/check-box-selected.png) no-repeat 30px!important;
+}
+
+.number-inline { display: inline-block; width: 5%; height: 20px; vertical-align: top; }
+.checkBox { background: url(../images/box.png) no-repeat center; display: inline-block; width: 5%; height: 30px; vertical-align: middle; }
+.checkBox:hover { background: url(../images/box-hover.png) no-repeat center; display: inline-block; width: 5%; height: 30px; vertical-align: middle; }
+.text-inline { display: inline-block; width: 85%; height: auto; vertical-align: middle; font-size: 16px; margin-left: 60px; }

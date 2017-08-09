@@ -1,0 +1,140 @@
+/* ============================================ */
+/* =  GENERAL RESPONSIVE TEMPLATE STRUCUTURE  = */
+/* ============================================ */
+
+/* Do not delete any of the following CSS below as it will affect the 
+   structure and set-up within the build when made responsive. Only 
+   remove items if they are no longer needed or if new styles have been 
+   created in their place within the responsive.css file.
+*/
+
+@media (min-width: 1440px) {
+	.white-container .top-banner .inner-content { padding: 30px; }
+	.speech-bubble-tall { left: 20%;}
+}
+
+
+@media (max-width: 1440px) {
+	.char-col .char { background-size: 70%; }
+	.content-banner .inner-content { width: 70%; }
+	.taking-it-further { min-width: 500px; }
+	.popup-reveal .inner-content { width: 70%; padding: 20px 20px 20px 20px;}
+}
+
+
+@media (max-width: 1200px) {
+	.floating-content { width: 90%;  }
+	.scenario-char { width: 100%; }
+	.grid .inner-content { padding: 20px 120px 20px 50px; }
+	.taking-it-further { min-width: 100px; }
+	.popup-reveal .inner-content { padding: 20px 20px 20px 20px; }
+	.content-banner { width: 30%; }
+	.content-banner .inner-content { width: 70%; }
+	.top-banner .inner-content { padding: 5px 5px 5px 5px; }
+	.col .char { background-size: 110%; }
+	.left-offset { left: 0; }
+	.top-banner { padding: 10px 20px; }
+	.hide-on-resize { display: none; }
+}
+
+
+/* iPad */
+@media (max-width: 1024px) {
+	.more-btn { margin-top: 0; }
+	.text-wrapper p { text-align: left; }
+	.question-wrapper {
+		width: 70%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -60%);
+		-moz-transform: translate(-50%, -60%);
+		-o-transform: translate(-50%, -60%);
+		-ms-transform: translate(-50%, -60%);
+		transform: translate(-50%, -60%);
+	}
+
+	.question-wrapper .top-banner .inner-content { text-align: center; }
+	.taking-it-further { min-width: 100px; }
+	.center { margin: 0; }
+	.submit-btn { left: auto; right: -10%; }
+	.introduction .inner-content { padding: 10px; }
+	.introduction .text-wrapper { width: 90%; }
+	.speech-bubble-tall { top: 2%; }
+	.col-2-3 .inner-content .text-wrapper { width: 80%; }
+}
+
+
+@media screen and (max-width: 991px) {
+	.inner-content { padding: 15px; }
+	.text-container .inner-content p { text-align: center; }
+}
+
+
+@media screen and (max-width: 1100px) and (max-height: 850px), (max-height: 1100px) and (max-width: 850px) {
+	.main-content {
+		height: 50%;
+		-ms-flex-preferred-size: 100%!important;
+		    flex-basis: 100%!important;
+		-ms-flex: 100%; /* IE 10 */ 
+	}
+
+	.char-col {
+		height: 50%;
+		-ms-flex-preferred-size: 25%!important;
+		    flex-basis: 25%!important;
+		-ms-flex: 25%; /* IE 10 */ 
+	}
+
+	.grid .char-col { height: 100%; }
+
+	.grid .col {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+		-ms-flex: 100%; /* IE 10 */ 
+	}
+
+	.hide-on-resize { display: none; }
+	.char-col .col .char { background-position: center top!important; }
+
+	.col:hover .char {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	.col:before { bottom: 0; top: 0; }
+	.inner-content { width: 100%; margin: 0 auto; padding: 50px; }
+	.character-grid:hover .col:hover { opacity: 1; }
+	.character-grid:hover .col { opacity: 1; }
+	.character-grid:hover .text-container { opacity: 1; }
+	.char { background-position: center -8%; background-size: 150%!important; }
+
+	.text-wrapper {
+		display: inline-block;
+		vertical-align: middle;	
+		width: 50%;
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	.more-btn { z-index: 1; }
+
+	.floating-content {
+		width: 100%;
+		top: 0;
+		border-radius: 0;
+	}
+
+	.introduction .floating-paragraph { width: 75%; top: 0; }
+	.introduction .floating-paragraph p { padding: 0 5px; }
+	.introduction .taking-it-further { display: none; }
+}
+
+
+@media screen and (max-height: 885px) {
+	.hide-on-resize { display: none; }
+}
+
+/* IE10 fixes */
+_:-ms-lang(x), .main-content, .character-grid .char-col { -ms-flex-preferred-size:20%\9;flex-basis:20%\9;  }
